@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Feedback and Rating</title>
+    <link rel="stylesheet" href="feedback.css">
+</head>
+
+<body>
+    <div class="container">
+        <h2>We Value Your Feedback</h2>
+        <div class="stars">
+            <span class="star" data-rating="1">★</span>
+            <span class="star" data-rating="2">★</span>
+            <span class="star" data-rating="3">★</span>
+            <span class="star" data-rating="4">★</span>
+            <span class="star" data-rating="5">★</span>
+        </div>
+        <p>Select a rating</p>
+        <small>1 - Poor | 2 - Fair | 3 - Good | 4 - Very Good | 5 - Excellent</small>
+        <div class="emoji" id="emoji">🙂🙂🙂</div>
+        <textarea id="feedback" placeholder="Share your experience with us..." oninput="countCharacters()"></textarea>
+        <div class="bottom">
+            <span id="charCount">0 characters</span>
+            <button onclick="submitFeedback()">Submit Feedback</button>
+        </div>
+    </div>
+
+    <script src="feedback.js"></script>
+</body>
+
+</html>
