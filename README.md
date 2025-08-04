@@ -11,6 +11,7 @@ Form Submission Handling – Captures and processes feedback data (extendable fo
 🛠️ Tech Stack
 HTML5 – Structure of the feedback page
 CSS3 – Styling with responsive design principles
+Javascript - For Responsiveness & Interaction
 
 📂 Project Structure
 
